@@ -104,7 +104,7 @@ func (o *stdConnOpener) Connect(ctx context.Context) (_ driver.Conn, err error) 
 
 func init() {
 	var debugf = func(format string, v ...any) {}
-	sql.Register("clickhouse", &stdDriver{debugf: debugf})
+	sql.Register("my_clickhouse", &stdDriver{debugf: debugf})
 }
 
 // isConnBrokenError returns true if the error class indicates that the
