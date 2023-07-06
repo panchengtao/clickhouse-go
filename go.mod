@@ -1,4 +1,4 @@
-module github.com/ClickHouse/clickhouse-go/v2
+module github.com/panchengtao/clickhouse-go
 
 go 1.18
 
